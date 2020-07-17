@@ -1,0 +1,59 @@
+tr.calculation-element-simple td:nth-child(1) , tr.calculation-element td:nth-child(1) {
+    width: 5%;
+ }
+ tr.calculation-element-simple td:nth-child(4) ,tr.calculation-element td:nth-child(5) {
+  width: 10%;
+}
+tr.calculation-element-simple td:nth-child(5) ,tr.calculation-element td:nth-child(6) {
+  width: 10%;
+}
+ tr.calculation-element td:nth-child(3) {
+  width: 25%;
+}
+tr.calculation-element td:nth-child(4) {
+  width: 25%;
+}
+
+
+.gain-cell {
+  background-color: #e4f5e8;
+  text-align: center;
+}
+.retenu-cell {
+  background-color: #fbe4e6;
+  text-align: center;
+}
+
+.list-title {
+  margin-bottom: 1rem;
+}
+
+.list-title > div {
+  display: flex;
+  flex-direction: row;
+}
+.list-title > div label {
+  margin-left: 1rem;
+}
+.information-header {
+  background: aliceblue;
+  padding: 15px;
+  margin-bottom: 1rem;
+}
+#example-collapse-text {
+  position: relative;
+}
+.float-panel {
+  position: absolute; 
+}
+.float-panel button {
+ 
+  background-color: #fff5d6;
+  border: 1px solid #dee2e6;
+}
+.panel-top-left {
+  left:-1.9rem;
+}
+.panel-btn{
+  bottom: -1rem;
+}
